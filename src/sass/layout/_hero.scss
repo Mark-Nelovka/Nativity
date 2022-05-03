@@ -1,0 +1,69 @@
+.hero {
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 375px) {
+    margin-bottom: 18px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-bottom: 32px;
+  }
+}
+
+.hero_container {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 158px;
+
+  @media screen and (min-width: 375px) {
+    height: 182px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    height: 344px;
+  }
+}
+
+.img-wheel {
+  width: 146px;
+  position: absolute;
+  left: 17px;
+  height: 160px;
+  animation-name: myFrames;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  @media screen and (min-width: 375px) {
+    width: 167px;
+    height: 184px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 315px;
+    height: 348px;
+  }
+}
+
+@keyframes myFrames {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

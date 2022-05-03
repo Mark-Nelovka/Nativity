@@ -1,1 +1,9 @@
-@import './header'
+@import './base/base';
+@import './base/reset';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/info';
+@import './layout/gender';
+@import './layout/question1';
+@import './layout/button';
+@import './layout/footer';

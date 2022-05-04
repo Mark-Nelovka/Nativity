@@ -1,0 +1,51 @@
+.section_result {
+  padding: 31px 15px;
+}
+
+.title_result {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343b4d;
+  margin-bottom: 19px;
+}
+
+.loader_result {
+  width: 0%;
+  height: 42px;
+  background: linear-gradient(to right, #419330, #419330);
+  margin-bottom: 26px;
+  animation: loader 10s linear forwards;
+}
+
+@keyframes loader {
+  to {
+    width: 100%;
+  }
+}
+
+.text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #343b4d;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.percentage {
+  color: #fff;
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 20px;
+}
+
+.write {
+  text-transform: uppercase;
+}

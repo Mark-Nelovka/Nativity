@@ -1,0 +1,54 @@
+.result_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343b4d;
+  margin-bottom: 19px;
+}
+
+.result_congratulations {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #315dfa;
+  margin-bottom: 19px;
+}
+
+.result_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  color: #343b4d;
+  margin-bottom: 19px;
+}
+
+.container_phone_button {
+  background: #315dfa;
+  border: 1px solid #315dfa;
+  padding: 13px 20px;
+  height: 45px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.button_call {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #315dfa;
+  color: #ffffff;
+
+  margin-left: 40px;
+}

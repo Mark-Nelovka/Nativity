@@ -1,16 +1,4 @@
-.question-text {
-  padding: 16px 22px;
-  background: #343b4d;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.form-day {
+.form-plans {
   display: flex;
   flex-direction: column;
   background: #f3f4f8;
@@ -23,20 +11,20 @@
   color: #000000;
 }
 
-.form-day > label {
+.form-plans > label {
   margin-bottom: 30px;
 }
 
-.day_range {
+.plans_range {
   height: 8px;
   background: #f3f4f8;
   box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px;
 }
 
-.day_range--color {
+.plans_range--color {
   display: block;
   background: #b53e42;
   height: 8px;
-  width: 26px;
+  width: 131px;
 }

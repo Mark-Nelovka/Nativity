@@ -1,0 +1,37 @@
+$button-background: #315dfa;
+$text: #343b4d;
+$progressive-line: #b53e42;
+$loader: #419330;
+$header-text: #afdce6;
+$footer-text: #c9c9c9;
+$answer-text: #000000;
+$question-text: #ffffff;
+
+@mixin style-text-analyze {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: $text;
+}
+
+@mixin style-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: $answer-text;
+}
+
+@mixin title {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: $button-background;
+}
+
+@mixin question {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: $question-text;
+}

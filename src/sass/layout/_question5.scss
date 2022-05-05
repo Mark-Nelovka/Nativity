@@ -6,13 +6,13 @@
 }
 .birthday_range--color {
   display: block;
-  background: #b53e42;
+  background: $progressive-line;
   height: 8px;
   width: auto;
 }
 
 .container_cell_birthday {
-  background: #ffffff;
+  background: $question-text;
   border: 1px solid #e4e4e4;
   padding: 12px 16px;
   width: 186px;
@@ -35,30 +35,15 @@
 }
 
 .text_birthday_day {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #000000;
+  @include style-text;
 }
 
 .text_birthday_mounth {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #000000;
+  @include style-text;
 }
 
 .text_birthday_years {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #000000;
+  @include style-text;
 }
 
 .button_birthday_day {
@@ -104,7 +89,7 @@
   overflow: auto;
   z-index: 1;
   height: 125px;
-  background: #ffffff;
+  background: $question-text;
 }
 
 .list_item {
@@ -124,7 +109,7 @@
   overflow: auto;
   z-index: 1;
   height: 125px;
-  background: #ffffff;
+  background: $question-text;
 }
 
 .list_years {
@@ -134,12 +119,10 @@
   overflow: auto;
   z-index: 1;
   height: 125px;
-  background: #ffffff;
+  background: $question-text;
 }
 
 .birthday-error {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 300;
   font-size: 13px;
   line-height: 22px;
@@ -156,11 +139,22 @@
 }
 
 .sign_text {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 22px;
   text-align: center;
   color: #000000;
+}
+
+.button-next_sign {
+  @include question;
+  text-transform: uppercase;
+  background: #315dfa;
+  border: 1px solid #315dfa;
+  margin-top: 13px;
+  width: 186px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
 }

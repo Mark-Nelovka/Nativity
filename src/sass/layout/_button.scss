@@ -1,12 +1,6 @@
 .button-next {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
+  @include question;
   text-transform: uppercase;
-  color: #ffffff;
   background: #315dfa;
   border: 1px solid #315dfa;
   margin-top: 13px;
@@ -14,6 +8,7 @@
   height: 45px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .container_button {

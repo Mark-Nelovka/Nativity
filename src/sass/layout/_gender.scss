@@ -1,13 +1,7 @@
 .gender {
   background: #343b4d;
   padding: 16px 22px 14px 21px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
-  color: #ffffff;
+  @include question;
 }
 
 .gender_change {
@@ -25,27 +19,3 @@
     padding: 60px 60px 60px 60px;
   }
 }
-
-// .button-next {
-//   font-family: 'Roboto';
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 22px;
-//   text-align: center;
-//   text-transform: uppercase;
-//   color: #ffffff;
-//   background: #315dfa;
-//   border: 1px solid #315dfa;
-//   margin-top: 13px;
-//   width: 186px;
-//   height: 45px;
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-
-// .container_button {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }

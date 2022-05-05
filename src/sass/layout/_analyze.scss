@@ -3,8 +3,6 @@
 }
 
 .title_result {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 19px;
@@ -27,13 +25,7 @@
 }
 
 .text {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 16px;
-  color: #343b4d;
-
+  @include style-text-analyze;
   &:not(:last-child) {
     margin-bottom: 15px;
   }

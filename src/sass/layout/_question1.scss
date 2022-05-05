@@ -1,13 +1,7 @@
 .question-text {
   padding: 16px 22px;
   background: #343b4d;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 22px;
-  text-align: center;
-  color: #ffffff;
+  @include question;
 }
 
 .form-day {
@@ -15,12 +9,7 @@
   flex-direction: column;
   background: #f3f4f8;
   padding: 37px 17px 45px 17px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #000000;
+  @include style-text;
 }
 
 .form-day > label {

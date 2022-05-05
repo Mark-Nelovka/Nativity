@@ -3,12 +3,7 @@
   flex-direction: column;
   background: #f3f4f8;
   padding: 37px 17px 45px 17px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #000000;
+  @include style-text;
 }
 
 .form-plans > label {
@@ -24,7 +19,7 @@
 
 .plans_range--color {
   display: block;
-  background: #b53e42;
+  background: $progressive-line;
   height: 8px;
   width: 131px;
 }

@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -18,4 +22,13 @@
 
 .hide {
   display: none;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+label > input {
+  margin-right: 5px;
 }

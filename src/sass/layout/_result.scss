@@ -1,54 +1,66 @@
 .result_title {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 19px;
-  color: #343b4d;
+  color: $text;
   margin-bottom: 19px;
 }
 
 .result_congratulations {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  color: #315dfa;
+  color: $button-background;
   margin-bottom: 19px;
 }
 
 .result_text {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 19px;
-  color: #343b4d;
+  color: $text;
   margin-bottom: 19px;
 }
 
 .container_phone_button {
-  background: #315dfa;
+  background: $button-background;
   border: 1px solid #315dfa;
   padding: 13px 20px;
   height: 45px;
   width: auto;
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .button_call {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 22px;
+  @include question;
   background-color: inherit;
-  text-align: center;
   text-transform: uppercase;
   border: 1px solid #315dfa;
-  color: #ffffff;
+  cursor: pointer;
+  @media screen and (min-width: 320px) {
+    margin-left: 20px;
+  }
 
-  margin-left: 40px;
+  @media screen and (min-width: 375px) {
+    margin-left: 40px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-left: 150px;
+  }
+}
+
+.table {
+  margin: 0 auto;
+}
+
+.string_table {
+  background-color: rgb(181, 236, 236);
+}
+
+.cell_table {
+  text-align: center;
+  padding: 5px 5px;
 }

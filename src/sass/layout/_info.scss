@@ -7,33 +7,20 @@
 }
 
 .info_title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 22px;
+  @include title;
   text-transform: uppercase;
-  color: #315df9;
   margin-bottom: 9px;
-
   @media screen and (min-width: 1920px) {
     margin-bottom: 14px;
   }
 }
 
 .info_subtitle {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  /* or 136% */
 
   text-transform: uppercase;
 
-  color: #343b4d;
+  color: $text;
 }
-
-//   @media screen and (min-width: 375px) {
-//     margin-bottom: 18px;
-//   }
